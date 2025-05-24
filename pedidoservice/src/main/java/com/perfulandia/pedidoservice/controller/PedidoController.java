@@ -27,6 +27,6 @@ public class PedidoController {
     public Pedido buscarPedido(@PathVariable long id){return servicio.buscarPedido(id);}
     //Eliminar pedido
     @DeleteMapping("/{id}")
-    public void eliminarPedido(@PathVariable long id){servicio.eliminarPedido(id);}
+    public String eliminarPedido(@PathVariable long id){servicio.eliminarPedido(id); return "Pedido ID: "+id+" eliminado";}
 
 }

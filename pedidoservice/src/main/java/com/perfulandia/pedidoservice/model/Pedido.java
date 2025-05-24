@@ -3,7 +3,7 @@ package com.perfulandia.pedidoservice.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 @Entity
@@ -16,12 +16,15 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     //Datos Pedido
     private long id;
-    private Date fechaPedido;
+
+    private LocalDate fechaPedido;
     private String estado;
-    //Datos Cliente
+    //Cliente asociado
     private long idCliente;
     private String direccion;
-    //Detalle compra
-    //private List<DetallePedido> detalleCompra;
+
+    // Orden de Compra
+    @OneToMany(mappedBy = "pedido", cascade = CascadeType.ALL)
+    List<ProductoCompra> productos;
 
 }
