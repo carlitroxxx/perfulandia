@@ -11,11 +11,13 @@
         </processorPath>
         <module name="usuarioservice" />
         <module name="productservice" />
+        <module name="pedidoservice" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pedidoservice" options="-parameters" />
       <module name="productservice" options="-parameters" />
       <module name="usuarioservice" options="-parameters" />
     </option>
