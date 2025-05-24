@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Controller Pedido agregado">
+    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="DTO creados">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748067388378</updated>
       <workItem from="1748067390225" duration="3326000" />
-      <workItem from="1748108402394" duration="8243000" />
+      <workItem from="1748108402394" duration="11207000" />
     </task>
     <task id="LOCAL-00001" summary="Model Pedido creado">
       <option name="closed" value="true" />
@@ -160,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748109452104</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DTO creados">
+      <option name="closed" value="true" />
+      <created>1748119930711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748119930711</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +205,7 @@
     <MESSAGE value="Repository Pedido agregado" />
     <MESSAGE value="Service Pedido agregado" />
     <MESSAGE value="Controller Pedido agregado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller Pedido agregado" />
+    <MESSAGE value="DTO creados" />
+    <option name="LAST_COMMIT_MESSAGE" value="DTO creados" />
   </component>
 </project>
