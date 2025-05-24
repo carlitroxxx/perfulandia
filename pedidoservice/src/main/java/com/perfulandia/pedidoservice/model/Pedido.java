@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -20,5 +21,7 @@ public class Pedido {
     //Datos Cliente
     private long idCliente;
     private String direccion;
+    //Detalle compra
+    //private List<DetallePedido> detalleCompra;
 
 }
