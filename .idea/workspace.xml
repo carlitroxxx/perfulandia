@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85411f51-c57a-49a9-a1c5-11bbddf00ef3" name="Changes" comment="clase Repartidor y Ruta creada en model">
-      <change afterPath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/controller/LogisticaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/repository/RutaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/service/RutaService.java" afterDir="false" />
+    <list default="true" id="85411f51-c57a-49a9-a1c5-11bbddf00ef3" name="Changes" comment="creación de LogisticaController, RutaRepository, RutaService, Ruta, se modifica LogisticaserviceApplication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/LogisticaserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/LogisticaserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/model/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/model/Ruta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logisticaservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/logisticaservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +64,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.LogisticaserviceApplication.executor": "Run",
     "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "francisco-vera",
     "ignore.virus.scanning.warn.message": "true",
@@ -116,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748130179036</updated>
-      <workItem from="1748130180819" duration="4417000" />
+      <workItem from="1748130180819" duration="5857000" />
     </task>
     <task id="LOCAL-00001" summary="creación logisticservice">
       <option name="closed" value="true" />
@@ -158,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748133402953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="creación de LogisticaController, RutaRepository, RutaService, Ruta, se modifica LogisticaserviceApplication">
+      <option name="closed" value="true" />
+      <created>1748134766880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748134766880</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +182,7 @@
     <MESSAGE value="creación logisticservice" />
     <MESSAGE value="creación base de datos" />
     <MESSAGE value="clase Repartidor y Ruta creada en model" />
-    <option name="LAST_COMMIT_MESSAGE" value="clase Repartidor y Ruta creada en model" />
+    <MESSAGE value="creación de LogisticaController, RutaRepository, RutaService, Ruta, se modifica LogisticaserviceApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="creación de LogisticaController, RutaRepository, RutaService, Ruta, se modifica LogisticaserviceApplication" />
   </component>
 </project>
