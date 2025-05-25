@@ -9,10 +9,10 @@ import lombok.Data;
 
 @Entity
 @Data
-public class CarritoItem {
+public class CarritoModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private long idCarrito;
     private String nombre;
     private int cantidad;
     private double precio;

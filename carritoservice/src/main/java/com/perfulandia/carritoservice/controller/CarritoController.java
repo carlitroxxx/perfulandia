@@ -1,6 +1,6 @@
 package com.perfulandia.carritoservice.controller;
 
-import com.perfulandia.carritoservice.model.CarritoItem;
+import com.perfulandia.carritoservice.model.CarritoModel;
 import com.perfulandia.carritoservice.service.CarritoService;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,12 +16,12 @@ public class CarritoController {
     }
 
     @GetMapping
-    public List<CarritoItem> obtenerCarrito() {
+    public List<CarritoModel> obtenerCarrito() {
         return carritoService.getCarrito();
     }
 
     @PostMapping
-    public CarritoItem agregarProducto(@RequestBody CarritoItem carritoItem) {
+    public CarritoModel agregarProducto(@RequestBody CarritoModel carritoItem) {
         return carritoService.addProducto(carritoItem);
     }
 

@@ -1,6 +1,6 @@
 package com.perfulandia.carritoservice.service;
 
-import com.perfulandia.carritoservice.model.CarritoItem;
+import com.perfulandia.carritoservice.model.CarritoModel;
 import com.perfulandia.carritoservice.repository.CarritoRepository;
 import org.springframework.stereotype.Service;
 
@@ -14,11 +14,11 @@ public class CarritoService {
         this.carritoRepository = carritoRepository;
     }
 
-    public List<CarritoItem> getCarrito() {
+    public List<CarritoModel> getCarrito() {
         return carritoRepository.findAll();
     }
 
-    public CarritoItem addProducto(CarritoItem carritoItem) {
+    public CarritoModel addProducto(CarritoModel carritoItem) {
         return carritoRepository.save(carritoItem);
     }
 
