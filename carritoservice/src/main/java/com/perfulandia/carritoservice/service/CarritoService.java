@@ -1,57 +1,63 @@
 package com.perfulandia.carritoservice.service;
 
-import com.perfulandia.carritoservice.model.Carrito;
-import com.perfulandia.carritoservice.model.ProductosCompra;
+import com.perfulandia.carritoservice.model.*;
 import com.perfulandia.carritoservice.repository.CarritoRepository;
-import com.perfulandia.carritoservice.model.ProductoCompraDTO;
-import com.perfulandia.carritoservice.model.OrdenCompraDTO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
 public class CarritoService {
     private final CarritoRepository repo;
-
     private final RestTemplate restTemplate;
 
-    public CarritoService(CarritoRepository repo, RestTemplate restTemplate) {
+    public CarritoService(CarritoRepository repo) {
         this.repo = repo;
-        this.restTemplate = restTemplate;
+        this.restTemplate = new RestTemplate();
+    }
+    //Se crea el carrito del cliente
+    public Carrito crearCarrito(long idCliente, String direccion){
+        Carrito carrito = new Carrito();
+        carrito.setIdCliente(idCliente);
+        carrito.setDireccion(direccion);
+        carrito.setProductoCompra(new ArrayList<>());
+        return repo.save(carrito);
+    }
+    //Metodo para agregar productos al carrito
+    public Carrito agregarProducto(long idCarrito, ProductoCompraDTO productoDTO){
+        //Se debe ingresar el id del carrito y el producto a agregar
+        Carrito carrito=repo.findById(idCarrito).orElseThrow(() -> new RuntimeException("Carrito no encontrado"));
+
+        //Obtener datos de producto
+        ProductoDTO productoBD = restTemplate.getForObject("http://localhost:8082/api/productos/{id}",ProductoDTO.class, productoDTO.getIdProducto());
+        if (productoBD == null){throw new RuntimeException("No se encontro el producto");}
+
+        ProductoCompra producto = new ProductoCompra();
+        producto.setIdProducto(productoBD.getId());
+        producto.setCantidad(productoDTO.getCantidad());
+        producto.setPrecio(productoBD.getPrecio());
+        producto.setSubTotal(productoBD.getPrecio()*productoDTO.getCantidad());
+        producto.setCarrito(carrito);
+
+        carrito.getProductoCompra().add(producto);
+        return repo.save(carrito);
+    }
+    //Metodo para quitar productos del carrito, se necesita el id del carro y el id del producto
+    public Carrito quitarProducto(long idCarrito, long idProducto){
+        Carrito carrito = repo.findById(idCarrito).orElseThrow(() -> new RuntimeException("Carrito no encontrado"));
+
+        carrito.getProductoCompra().removeIf(producto->producto.getIdProducto()==idProducto);
+        return repo.save(carrito);
+    }
+    //buscar el carrito por id
+    public Carrito obtenerCarrito(long idCarrito){
+        return repo.findById(idCarrito).orElseThrow(() -> new RuntimeException("Carrito no encontrado"));
+
     }
 
-    public ProductosCompra agregarProducto(ProductosCompra producto) {
-        producto.setSubTotal(producto.getCantidad()*producto.getPrecioUni());
-        return repo.save(producto);
-    }
 
-    public void eliminarProducto(Long id) {
-        repo.deleteById(id);
-    }
 
-    public String enviarOrdenCompra(Long idCliente, String direccion) {
-        List<ProductosCompra> items = repo.findByIdCliente(idCliente);
-
-        if (items.isEmpty()) {
-            throw new RuntimeException("Carrito vacío para el cliente: " + idCliente);
-        }
-
-        OrdenCompraDTO orden = new OrdenCompraDTO();
-        orden.setIdCliente(idCliente);
-        orden.setDireccion(direccion);
-
-        for (ProductosCompra item : items) {
-            ProductoCompraDTO dto = new ProductoCompraDTO(
-                    item.getIdProducto(),
-                    item.getCantidad(),
-                    item.getPrecio(),
-                    item.getSubTotal()
-            );
-            orden.getProductos().add(dto);
-        }
-
-        //String pedidoUrl = "http://localhost:8082/api/pedidos"; // Ajusta el puerto según tu microservicio de pedidos
-        //return restTemplate.postForObject(pedidoUrl, orden, String.class);
-    }
 }

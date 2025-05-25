@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="DTO creados">
+    <list default="true" id="88eb1e63-2690-4dc5-8159-e3355f643e59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/perfulandia.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/perfumelandia.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/OrdenCompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/OrdenCompraDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoCompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoCompraDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductosCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/repository/CarritoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/repository/CarritoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +29,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,29 +36,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;carlitroxxx&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "carlitroxxx"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/carlitroxxx/perfulandia.git&quot;,
-    &quot;accountId&quot;: &quot;2ae0765a-5d76-4924-968c-700ded49a578&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/carlitroxxx/perfulandia.git",
+    "accountId": "2ae0765a-5d76-4924-968c-700ded49a578"
   }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2xWwxxMIAN6NvCl3cCUeF6AN1Vu" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2xbaN1IWY0EQjOlmZXsVQvoFDrM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,15 +59,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.PedidoserviceApplication.executor": "Run",
-    "Spring Boot.UsuarioserviceApplication.executor": "Run",
-    "git-widget-placeholder": "carlos-moil",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/carlo/OneDrive - Universidad Técnica Federico Santa María/Escritorio/pj/perfulandia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,11 +83,19 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PedidoserviceApplication">
-    <configuration name="PedidoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.CarritoserviceApplication">
+    <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="pedidoservice" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.pedidoservice.PedidoserviceApplication" />
+      <module name="carritoservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.carritoservice.CarritoserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogisticaserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="logisticaservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.logisticaservice.LogisticaserviceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,92 +127,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="" />
-      <created>1748067388378</created>
+      <changelist id="88eb1e63-2690-4dc5-8159-e3355f643e59" name="Changes" comment="" />
+      <created>1748209184339</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748067388378</updated>
-      <workItem from="1748067390225" duration="3326000" />
-      <workItem from="1748108402394" duration="11207000" />
+      <updated>1748209184339</updated>
+      <workItem from="1748209184830" duration="3012000" />
     </task>
-    <task id="LOCAL-00001" summary="Model Pedido creado">
-      <option name="closed" value="true" />
-      <created>1748068416460</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1748068416461</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Repository Pedido agregado">
-      <option name="closed" value="true" />
-      <created>1748068636310</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1748068636310</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Service Pedido agregado">
-      <option name="closed" value="true" />
-      <created>1748108786589</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1748108786590</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Controller Pedido agregado">
-      <option name="closed" value="true" />
-      <created>1748109452104</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1748109452104</updated>
-    </task>
-    <task id="LOCAL-00005" summary="DTO creados">
-      <option name="closed" value="true" />
-      <created>1748119930711</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1748119930711</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/carlos-moil" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Model Pedido creado" />
-    <MESSAGE value="Repository Pedido agregado" />
-    <MESSAGE value="Service Pedido agregado" />
-    <MESSAGE value="Controller Pedido agregado" />
-    <MESSAGE value="DTO creados" />
-    <option name="LAST_COMMIT_MESSAGE" value="DTO creados" />
   </component>
 </project>

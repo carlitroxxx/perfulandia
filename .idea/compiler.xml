@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for productservice" enabled="true">
+      <profile name="Annotation profile for logisticaservice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -11,6 +11,8 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="usuarioservice" />
+        <module name="carritoservice" />
+        <module name="logisticaservice" />
         <module name="productservice" />
         <module name="pedidoservice" />
       </profile>
@@ -18,6 +20,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="carritoservice" options="-parameters" />
+      <module name="logisticaservice" options="-parameters" />
       <module name="pedidoservice" options="-parameters" />
       <module name="productservice" options="-parameters" />
       <module name="usuarioservice" options="-parameters" />
