@@ -1,8 +1,5 @@
 package com.perfulandia.pedidoservice.controller;
-import com.perfulandia.pedidoservice.model.OrdenCompraDTO;
-import com.perfulandia.pedidoservice.model.Pedido;
-import com.perfulandia.pedidoservice.model.ProductoCompra;
-import com.perfulandia.pedidoservice.model.ProductoCompraDTO;
+import com.perfulandia.pedidoservice.model.*;
 import com.perfulandia.pedidoservice.service.PedidoService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -39,7 +36,12 @@ public class PedidoController {
         return servicio.recibirOrden(id);
     }
 
-    //CONTROLAR ESTADOS DE COMPRA
+    //CONTROLAR ESTADOS DE pedido
+    @PutMapping("/{id}/estado")
+    public Pedido cambiarEstadoPedido(@PathVariable long id, @RequestParam EstadoPedido estado){
+        return servicio.cambiarEstadoPedido(id, estado);
+    }
+    //PUT /api/pedidos/1/estado?estado=ENVIADO
 
 
 

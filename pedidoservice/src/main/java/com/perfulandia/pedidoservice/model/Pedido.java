@@ -18,7 +18,8 @@ public class Pedido {
     private long id;
 
     private LocalDate fechaPedido;
-    private String estado;
+    @Enumerated(EnumType.STRING)
+    private EstadoPedido estado;
     //Cliente asociado
     private long idCliente;
     private String direccion;

@@ -37,7 +37,7 @@ public class PedidoService {
         //crear un pedido
         Pedido pedido = Pedido.builder()
                 .fechaPedido(LocalDate.now())
-                .estado("PENDIENTE")
+                .estado(EstadoPedido.GENERADO)
                 .idCliente(orden.getIdCliente())
                 .direccion(orden.getDireccion())
                 .build();
@@ -58,5 +58,14 @@ public class PedidoService {
 
 
         return pedidoGuardado;
+    }
+    //METODO PARA CAMBIAR ESTADO DEL PEDIDO
+    public Pedido cambiarEstadoPedido(long idPedido, EstadoPedido estado){
+        Pedido pedido = buscarPedido(idPedido);
+        if(pedido == null){throw new RuntimeException("Pedido no encontrado");}
+        EstadoPedido estadoActual = pedido.getEstado();
+
+        pedido.setEstado(estado);
+        return repo.save(pedido);
     }
 }
