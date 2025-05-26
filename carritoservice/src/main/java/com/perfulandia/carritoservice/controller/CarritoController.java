@@ -17,7 +17,7 @@ public class CarritoController {
     //crear carrito
     @PostMapping
     public Carrito crearCarrito(@RequestBody Carrito carrito) {
-        return carritoService.crearCarrito(carrito.getIdCarrito(),carrito.getDireccion());
+        return carritoService.crearCarrito(carrito.getIdCliente(),carrito.getDireccion());
     }
     @PostMapping("/{idCarrito}/productos")
     public Carrito agregarProducto(@PathVariable long idCarrito, @RequestBody ProductoCompraDTO productoCompraDTO) {

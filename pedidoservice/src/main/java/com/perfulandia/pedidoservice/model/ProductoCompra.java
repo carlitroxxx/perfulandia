@@ -1,5 +1,6 @@
 package com.perfulandia.pedidoservice.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -18,5 +19,6 @@ public class ProductoCompra {
     private double subtotal;
     @ManyToOne
     @JoinColumn(name = "pedido_id")
+    @JsonIgnore
     private Pedido pedido;
 }

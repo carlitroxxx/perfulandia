@@ -13,5 +13,5 @@ import java.util.List;
 public class OrdenCompraDTO {
     private long idCliente;
     private String direccion;
-    private List<ProductoCompraDTO> productos;
+    private List<ProductoCompraDTO> productoCompra;
 }

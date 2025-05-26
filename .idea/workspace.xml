@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88eb1e63-2690-4dc5-8159-e3355f643e59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/perfulandia.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/perfumelandia.iml" beforeDir="false" />
+    <list default="true" id="88eb1e63-2690-4dc5-8159-e3355f643e59" name="Changes" comment="Carrito con agregar, eliminar productos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/Carrito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/OrdenCompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/OrdenCompraDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoCompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoCompraDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductosCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoCompra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/repository/CarritoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/repository/CarritoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/model/ProductoCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/controller/LogisticaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logisticaservice/src/main/java/com/perfulandia/logisticaservice/controller/LogisticaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logisticaservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/logisticaservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/PedidoserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/PedidoserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/OrdenCompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/OrdenCompraDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/ProductoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/ProductoCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +54,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CarritoserviceApplication.executor": "Run",
+    "Spring Boot.LogisticaserviceApplication.executor": "Run",
+    "Spring Boot.PedidoserviceApplication.executor": "Run",
+    "Spring Boot.ProductserviceApplication.executor": "Run",
+    "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/carlo/OneDrive - Universidad Técnica Federico Santa María/Escritorio/pj/perfulandia",
     "node.js.detected.package.eslint": "true",
@@ -70,6 +74,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
+    "service.view.auto.scroll.to.source": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CarritoserviceApplication">
+  <component name="RunManager">
     <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="carritoservice" />
@@ -132,11 +137,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748209184339</updated>
-      <workItem from="1748209184830" duration="3012000" />
+      <workItem from="1748209184830" duration="8954000" />
     </task>
+    <task id="LOCAL-00001" summary="Carrito con agregar, eliminar productos">
+      <option name="closed" value="true" />
+      <created>1748212369554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748212369554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Carrito con agregar, eliminar productos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carrito con agregar, eliminar productos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

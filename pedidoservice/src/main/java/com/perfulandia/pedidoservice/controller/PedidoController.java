@@ -39,4 +39,8 @@ public class PedidoController {
         return servicio.recibirOrden(id);
     }
 
+    //CONTROLAR ESTADOS DE COMPRA
+
+
+
 }
