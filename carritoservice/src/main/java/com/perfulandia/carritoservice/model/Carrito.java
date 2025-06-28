@@ -19,5 +19,5 @@ public class Carrito {
     private String direccion;
 
     @OneToMany(mappedBy = "carrito", cascade = CascadeType.ALL)
-    private List<ProductosCompra> productosCompra;
+    private List<ProductoCompra> productoCompra;
 }

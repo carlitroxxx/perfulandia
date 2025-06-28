@@ -1,5 +1,6 @@
 package com.perfulandia.carritoservice.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Data
-public class ProductosCompra {
+public class ProductoCompra {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -20,5 +21,6 @@ public class ProductosCompra {
 
     @ManyToOne
     @JoinColumn(name = "carrito_id")
+    @JsonIgnore
     private Carrito carrito;
 }
