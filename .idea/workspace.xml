@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Inicio ev3" />
+    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="ev3 start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +35,9 @@
     &quot;accountId&quot;: &quot;2ae0765a-5d76-4924-968c-700ded49a578&quot;
   }
 }</component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -181,6 +183,17 @@
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/carlos-moil" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
                 </option>
               </RecentGroup>
             </list>
