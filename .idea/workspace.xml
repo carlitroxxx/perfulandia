@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Test Carrito">
+    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Test Pedido">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/ProductoCompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/ProductoCompraDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/controller/PedidoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/controller/PedidoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/service/PedidoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/service/PedidoServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,7 @@
     "JUnit.CarritoServiceTest.testQuitarProducto.executor": "Run",
     "JUnit.PedidoControllerTest.executor": "Run",
     "JUnit.PedidoServiceTest.executor": "Run",
+    "JUnit.PedidoserviceApplicationTests.executor": "Run",
     "JUnit.ProductoControllerTest.executor": "Run",
     "JUnit.ProductoControllerTest.testObtenerUsuario.executor": "Run",
     "JUnit.ProductoServiceTest.executor": "Run",
@@ -107,7 +109,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductoControllerTest">
+  <component name="RunManager" selected="JUnit.PedidoServiceTest">
     <configuration name="CarritoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carritoservice" />
       <extension name="coverage">
@@ -209,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductoControllerTest" />
-        <item itemvalue="JUnit.CarritoServiceTest" />
-        <item itemvalue="JUnit.CarritoControllerTest" />
         <item itemvalue="JUnit.PedidoServiceTest" />
         <item itemvalue="JUnit.PedidoControllerTest" />
+        <item itemvalue="JUnit.CarritoControllerTest" />
+        <item itemvalue="JUnit.ProductoControllerTest" />
+        <item itemvalue="JUnit.CarritoServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +241,7 @@
       <workItem from="1751159792653" duration="10587000" />
       <workItem from="1751178825339" duration="43000" />
       <workItem from="1751231273451" duration="4000" />
-      <workItem from="1751231447598" duration="3661000" />
+      <workItem from="1751231447598" duration="5409000" />
     </task>
     <task id="LOCAL-00001" summary="Model Pedido creado">
       <option name="closed" value="true" />
@@ -305,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751233613564</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test Pedido">
+      <option name="closed" value="true" />
+      <created>1751235412439</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751235412439</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,6 +367,7 @@
     <MESSAGE value="Inicio ev3" />
     <MESSAGE value="Test de usuario y producto completo" />
     <MESSAGE value="Test Carrito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Carrito" />
+    <MESSAGE value="Test Pedido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Pedido" />
   </component>
 </project>
