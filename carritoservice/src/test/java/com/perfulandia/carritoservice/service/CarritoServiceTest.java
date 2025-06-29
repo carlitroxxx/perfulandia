@@ -4,12 +4,9 @@ import com.perfulandia.carritoservice.model.*;
 import com.perfulandia.carritoservice.repository.CarritoRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
@@ -63,32 +60,44 @@ public class CarritoServiceTest {
         //
         ProductoDTO productoMock = new ProductoDTO();
         productoMock.setId(10L);
-        productoMock.setPrecio(50.0);
+        productoMock.setNombre("Producto Test");
+        productoMock.setPrecio(50);
+        productoMock.setStock(100);
         //
         ProductoCompraDTO productoDTO = new ProductoCompraDTO();
         productoDTO.setIdProducto(10L);
         productoDTO.setCantidad(2);
+        productoDTO.setPrecio(50);
+        productoDTO.setSubtotal(100);
         //Simulamos mock de las 3 instancias
         //Optional es para evitar nulos
         when(carritoRepository.findById(1L)).thenReturn(Optional.of(carritoExistente));
         when(restTemplate.getForObject(
-                "http://localhost:8082/api/productos/10",
+                "http://localhost:8082/api/productos/{id}",
                 ProductoDTO.class,
                 10L
         )).thenReturn(productoMock);
-        when(carritoRepository.save(any(Carrito.class))).thenReturn(carritoExistente);
-        //Ejecutamos y guardamos
+        when(carritoRepository.save(any(Carrito.class))).thenAnswer(invocation -> invocation.getArgument(0));
+        //Ejecutamos y guardamos en una instancia Carrito
         Carrito resultado = carritoService.agregarProducto(1L, productoDTO);
-        //Verificamos los datos guardados en carrito
+        //Verificamos los datos guardados del carrito
+        assertNotNull(resultado);
         assertEquals(1, resultado.getProductoCompra().size());
-        assertEquals(100.0, resultado.getProductoCompra().get(0).getSubTotal());
+
+        ProductoCompra productoAgregado = resultado.getProductoCompra().get(0);
+        //Verificamos los datos del producto agregado al carrito
+        assertEquals(10L, productoAgregado.getIdProducto());
+        assertEquals(2, productoAgregado.getCantidad());
+        assertEquals(50, productoAgregado.getPrecio());
+        assertEquals(100, productoAgregado.getSubTotal());
         //Verificamoss el uso de carritoRepository y restTemplate
         verify(carritoRepository, times(1)).findById(1L);
         verify(restTemplate).getForObject(
-                "http://localhost:8082/api/productos/10",
+                "http://localhost:8082/api/productos/{id}",
                 ProductoDTO.class,
                 10L
         );
+        verify(carritoRepository, times(1)).save(any(Carrito.class));
     }
 //?????????????????????????????????????????
     @Test

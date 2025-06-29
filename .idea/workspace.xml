@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Inicio ev3">
+    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Test de usuario y producto completo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/CarritoserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/CarritoserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,44 +58,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CarritoServiceTest.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.CarritoServiceTest.testAgregarProducto.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarritoServiceTest.testCarritoNoEncontrado.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarritoServiceTest.testCrearCarrito.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarritoServiceTest.testQuitarProducto.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductoControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductoControllerTest.testObtenerUsuario.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductoServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductoServiceTest.testFindAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductoServiceTest.testFindById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductoServiceTest.testGuardar.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductoServiceTest.testSave.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UsuarioControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UsuarioServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UsuarioServiceTest.testFindById.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;Database connection parameters found&quot;,
-    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.PedidoserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.UsuarioserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;carlos-moil&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CarritoControllerTest.executor": "Run",
+    "JUnit.CarritoControllerTest.testQuitarProducto.executor": "Run",
+    "JUnit.CarritoServiceTest.executor": "Run",
+    "JUnit.CarritoServiceTest.testAgregarProducto.executor": "Run",
+    "JUnit.CarritoServiceTest.testCarritoNoEncontrado.executor": "Run",
+    "JUnit.CarritoServiceTest.testCrearCarrito.executor": "Run",
+    "JUnit.CarritoServiceTest.testQuitarProducto.executor": "Run",
+    "JUnit.ProductoControllerTest.executor": "Run",
+    "JUnit.ProductoControllerTest.testObtenerUsuario.executor": "Run",
+    "JUnit.ProductoServiceTest.executor": "Run",
+    "JUnit.ProductoServiceTest.testFindAll.executor": "Run",
+    "JUnit.ProductoServiceTest.testFindById.executor": "Run",
+    "JUnit.ProductoServiceTest.testGuardar.executor": "Run",
+    "JUnit.ProductoServiceTest.testSave.executor": "Run",
+    "JUnit.UsuarioControllerTest.executor": "Run",
+    "JUnit.UsuarioServiceTest.executor": "Run",
+    "JUnit.UsuarioServiceTest.testFindById.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "Database connection parameters found",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.PedidoserviceApplication.executor": "Run",
+    "Spring Boot.UsuarioserviceApplication.executor": "Run",
+    "git-widget-placeholder": "carlos-moil",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -101,7 +108,38 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarritoServiceTest">
+  <component name="RunManager" selected="JUnit.CarritoControllerTest">
+    <configuration name="CarritoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoControllerTest.testQuitarProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
+      <option name="METHOD_NAME" value="testQuitarProducto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarritoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carritoservice" />
       <extension name="coverage">
@@ -128,38 +166,6 @@
       <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
       <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
       <option name="METHOD_NAME" value="testAgregarProducto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoServiceTest.testCarritoNoEncontrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
-      <option name="METHOD_NAME" value="testCarritoNoEncontrado" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoServiceTest.testCrearCarrito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
-      <option name="METHOD_NAME" value="testCrearCarrito" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarritoControllerTest" />
         <item itemvalue="JUnit.CarritoServiceTest" />
-        <item itemvalue="JUnit.CarritoServiceTest.testQuitarProducto" />
+        <item itemvalue="JUnit.CarritoControllerTest.testQuitarProducto" />
         <item itemvalue="JUnit.CarritoServiceTest.testAgregarProducto" />
-        <item itemvalue="JUnit.CarritoServiceTest.testCarritoNoEncontrado" />
-        <item itemvalue="JUnit.CarritoServiceTest.testCrearCarrito" />
+        <item itemvalue="JUnit.CarritoServiceTest.testQuitarProducto" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +243,7 @@
       <workItem from="1751159792653" duration="10587000" />
       <workItem from="1751178825339" duration="43000" />
       <workItem from="1751231273451" duration="4000" />
+      <workItem from="1751231447598" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="Model Pedido creado">
       <option name="closed" value="true" />
@@ -286,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751152883539</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test de usuario y producto completo">
+      <option name="closed" value="true" />
+      <created>1751231494513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751231494513</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +351,7 @@
     <MESSAGE value="Controller Pedido agregado" />
     <MESSAGE value="DTO creados" />
     <MESSAGE value="Inicio ev3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio ev3" />
+    <MESSAGE value="Test de usuario y producto completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test de usuario y producto completo" />
   </component>
 </project>

@@ -14,9 +14,10 @@ public class CarritoService {
     private final CarritoRepository repo;
     private final RestTemplate restTemplate;
 
-    public CarritoService(CarritoRepository repo) {
+    @Autowired
+    public CarritoService(CarritoRepository repo,   RestTemplate restTemplate) {
         this.repo = repo;
-        this.restTemplate = new RestTemplate();
+        this.restTemplate = restTemplate;
     }
     //Se crea el carrito del cliente
     public Carrito crearCarrito(long idCliente, String direccion){
