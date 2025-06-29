@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Test Pedido">
+    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Comentarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/controller/PedidoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/controller/PedidoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/service/PedidoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/service/PedidoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,9 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CarritoserviceApplication.executor": "Run",
     "Spring Boot.PedidoserviceApplication.executor": "Run",
+    "Spring Boot.ProductserviceApplication.executor": "Run",
     "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "carlos-moil",
     "node.js.detected.package.eslint": "true",
@@ -109,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PedidoServiceTest">
+  <component name="RunManager" selected="Spring Boot.UsuarioserviceApplication">
     <configuration name="CarritoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carritoservice" />
       <extension name="coverage">
@@ -185,6 +188,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="carritoservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.carritoservice.CarritoserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PedidoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="pedidoservice" />
@@ -241,7 +251,8 @@
       <workItem from="1751159792653" duration="10587000" />
       <workItem from="1751178825339" duration="43000" />
       <workItem from="1751231273451" duration="4000" />
-      <workItem from="1751231447598" duration="5409000" />
+      <workItem from="1751231447598" duration="5448000" />
+      <workItem from="1751237506190" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Model Pedido creado">
       <option name="closed" value="true" />
@@ -315,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751235412439</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Comentarios">
+      <option name="closed" value="true" />
+      <created>1751237398918</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751237398918</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +387,7 @@
     <MESSAGE value="Test de usuario y producto completo" />
     <MESSAGE value="Test Carrito" />
     <MESSAGE value="Test Pedido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Pedido" />
+    <MESSAGE value="Comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comentarios" />
   </component>
 </project>
