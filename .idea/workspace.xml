@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="ev3 start">
+    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Inicio ev3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,24 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.CarritoServiceTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CarritoServiceTest.testAgregarProducto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarritoServiceTest.testCarritoNoEncontrado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarritoServiceTest.testCrearCarrito.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarritoServiceTest.testQuitarProducto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoControllerTest.testObtenerUsuario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoServiceTest.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoServiceTest.testFindById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoServiceTest.testGuardar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductoServiceTest.testSave.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioServiceTest.testFindById.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;Database connection parameters found&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -84,7 +101,86 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PedidoserviceApplication">
+  <component name="RunManager" selected="JUnit.CarritoServiceTest">
+    <configuration name="CarritoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoServiceTest.testAgregarProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
+      <option name="METHOD_NAME" value="testAgregarProducto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoServiceTest.testCarritoNoEncontrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
+      <option name="METHOD_NAME" value="testCarritoNoEncontrado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoServiceTest.testCrearCarrito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
+      <option name="METHOD_NAME" value="testCrearCarrito" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoServiceTest.testQuitarProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
+      <option name="METHOD_NAME" value="testQuitarProducto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PedidoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="pedidoservice" />
@@ -109,6 +205,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CarritoServiceTest" />
+        <item itemvalue="JUnit.CarritoServiceTest.testQuitarProducto" />
+        <item itemvalue="JUnit.CarritoServiceTest.testAgregarProducto" />
+        <item itemvalue="JUnit.CarritoServiceTest.testCarritoNoEncontrado" />
+        <item itemvalue="JUnit.CarritoServiceTest.testCrearCarrito" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -127,6 +232,11 @@
       <updated>1748067388378</updated>
       <workItem from="1748067390225" duration="3326000" />
       <workItem from="1748108402394" duration="11207000" />
+      <workItem from="1751152993305" duration="4946000" />
+      <workItem from="1751158579495" duration="1172000" />
+      <workItem from="1751159792653" duration="10587000" />
+      <workItem from="1751178825339" duration="43000" />
+      <workItem from="1751231273451" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Model Pedido creado">
       <option name="closed" value="true" />
@@ -168,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748119930711</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Inicio ev3">
+      <option name="closed" value="true" />
+      <created>1751152883539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751152883539</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +335,7 @@
     <MESSAGE value="Service Pedido agregado" />
     <MESSAGE value="Controller Pedido agregado" />
     <MESSAGE value="DTO creados" />
-    <option name="LAST_COMMIT_MESSAGE" value="DTO creados" />
+    <MESSAGE value="Inicio ev3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio ev3" />
   </component>
 </project>
