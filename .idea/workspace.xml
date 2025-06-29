@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Test de usuario y producto completo">
+    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="Test Carrito">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/CarritoserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/CarritoserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/service/CarritoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/ProductoCompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/model/ProductoCompraDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,8 @@
     "JUnit.CarritoServiceTest.testCarritoNoEncontrado.executor": "Run",
     "JUnit.CarritoServiceTest.testCrearCarrito.executor": "Run",
     "JUnit.CarritoServiceTest.testQuitarProducto.executor": "Run",
+    "JUnit.PedidoControllerTest.executor": "Run",
+    "JUnit.PedidoServiceTest.executor": "Run",
     "JUnit.ProductoControllerTest.executor": "Run",
     "JUnit.ProductoControllerTest.testObtenerUsuario.executor": "Run",
     "JUnit.ProductoServiceTest.executor": "Run",
@@ -108,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarritoControllerTest">
+  <component name="RunManager" selected="JUnit.ProductoControllerTest">
     <configuration name="CarritoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carritoservice" />
       <extension name="coverage">
@@ -120,22 +119,6 @@
       <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
       <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoControllerTest.testQuitarProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
-      <option name="METHOD_NAME" value="testQuitarProducto" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,34 +138,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarritoServiceTest.testAgregarProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
+    <configuration name="PedidoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pedidoservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="PATTERN" value="com.perfulandia.pedidoservice.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
-      <option name="METHOD_NAME" value="testAgregarProducto" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.perfulandia.pedidoservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.pedidoservice.controller.PedidoControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarritoServiceTest.testQuitarProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
+    <configuration name="PedidoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pedidoservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
+          <option name="PATTERN" value="com.perfulandia.pedidoservice.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
-      <option name="METHOD_NAME" value="testQuitarProducto" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.perfulandia.pedidoservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.pedidoservice.service.PedidoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="productservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfulandia.productservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.perfulandia.productservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.controller.ProductoControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarritoControllerTest" />
+        <item itemvalue="JUnit.ProductoControllerTest" />
         <item itemvalue="JUnit.CarritoServiceTest" />
-        <item itemvalue="JUnit.CarritoControllerTest.testQuitarProducto" />
-        <item itemvalue="JUnit.CarritoServiceTest.testAgregarProducto" />
-        <item itemvalue="JUnit.CarritoServiceTest.testQuitarProducto" />
+        <item itemvalue="JUnit.CarritoControllerTest" />
+        <item itemvalue="JUnit.PedidoServiceTest" />
+        <item itemvalue="JUnit.PedidoControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +239,7 @@
       <workItem from="1751159792653" duration="10587000" />
       <workItem from="1751178825339" duration="43000" />
       <workItem from="1751231273451" duration="4000" />
-      <workItem from="1751231447598" duration="2118000" />
+      <workItem from="1751231447598" duration="3661000" />
     </task>
     <task id="LOCAL-00001" summary="Model Pedido creado">
       <option name="closed" value="true" />
@@ -301,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751231494513</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test Carrito">
+      <option name="closed" value="true" />
+      <created>1751233613564</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751233613564</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +356,7 @@
     <MESSAGE value="DTO creados" />
     <MESSAGE value="Inicio ev3" />
     <MESSAGE value="Test de usuario y producto completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test de usuario y producto completo" />
+    <MESSAGE value="Test Carrito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Carrito" />
   </component>
 </project>

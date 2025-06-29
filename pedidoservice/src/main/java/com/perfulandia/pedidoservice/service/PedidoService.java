@@ -13,9 +13,9 @@ import java.util.List;
 public class PedidoService {
     public final PedidoRepository repo;
     private final RestTemplate restTemplate;
-    public PedidoService(PedidoRepository repo) {
+    public PedidoService(PedidoRepository repo, RestTemplate restTemplate) {
         this.repo = repo;
-        this.restTemplate = new RestTemplate();
+        this.restTemplate = restTemplate;
 
     }
 
