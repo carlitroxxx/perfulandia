@@ -15,11 +15,14 @@ public class PedidoAssembler implements RepresentationModelAssembler<Pedido, Ent
         return EntityModel.of(pedido,
                 // Link a sí mismo: obtener este pedido
                 linkTo(methodOn(PedidoController.class).buscarPedido(pedido.getId())).withSelfRel(),
+
                 // Link a la lista completa de pedidos
                 linkTo(methodOn(PedidoController.class).listarPedidos()).withRel("todosLosPedidos"),
+
                 // Link para cambiar estado del pedido (por ejemplo)
                 linkTo(methodOn(PedidoController.class).cambiarEstadoPedido(pedido.getId(), pedido.getEstado()))
                         .withRel("cambiarEstado"),
+
                 // Link para eliminar pedido
                 linkTo(methodOn(PedidoController.class).eliminarPedido(pedido.getId())).withRel("eliminarPedido"));
     }

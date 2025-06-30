@@ -12,7 +12,6 @@ import com.perfulandia.usuarioservice.assembler.UsuarioAssembler;
 import java.util.List;
 
 import org.springframework.hateoas.*;
-import org.springframework.web.bind.annotation.*;
 import java.util.stream.Collectors;
 
 @RestController
@@ -59,5 +58,4 @@ public class UsuarioController {
     public void eliminar(@PathVariable long id){
         service.eliminar(id);
     }
-
 }
