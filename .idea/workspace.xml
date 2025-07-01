@@ -4,91 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="" />
+    <list default="true" id="497b3443-7f46-4216-b27c-b61b2a413a8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/java/com/perfulandia/carritoservice/controller/CarritoController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/carlos-moil" />
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;carlitroxxx&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "carlitroxxx"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/carlitroxxx/perfulandia.git&quot;,
-    &quot;accountId&quot;: &quot;2ae0765a-5d76-4924-968c-700ded49a578&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/carlitroxxx/perfulandia.git",
+    "accountId": "2ae0765a-5d76-4924-968c-700ded49a578"
   }
-}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2xWwxxMIAN6NvCl3cCUeF6AN1Vu" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2zGG1ZMjRunb63PNdzzstPuF2J1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "JUnit.CarritoControllerTest.executor": "Run",
-    "JUnit.CarritoControllerTest.testQuitarProducto.executor": "Run",
-    "JUnit.CarritoServiceTest.executor": "Run",
-    "JUnit.CarritoServiceTest.testAgregarProducto.executor": "Run",
-    "JUnit.CarritoServiceTest.testCarritoNoEncontrado.executor": "Run",
-    "JUnit.CarritoServiceTest.testCrearCarrito.executor": "Run",
-    "JUnit.CarritoServiceTest.testQuitarProducto.executor": "Run",
-    "JUnit.PedidoControllerTest.executor": "Run",
-    "JUnit.PedidoServiceTest.executor": "Run",
-    "JUnit.PedidoserviceApplicationTests.executor": "Run",
-    "JUnit.ProductoControllerTest.executor": "Run",
-    "JUnit.ProductoControllerTest.testObtenerUsuario.executor": "Run",
-    "JUnit.ProductoServiceTest.executor": "Run",
-    "JUnit.ProductoServiceTest.testFindAll.executor": "Run",
-    "JUnit.ProductoServiceTest.testFindById.executor": "Run",
-    "JUnit.ProductoServiceTest.testGuardar.executor": "Run",
-    "JUnit.ProductoServiceTest.testSave.executor": "Run",
-    "JUnit.UsuarioControllerTest.executor": "Run",
-    "JUnit.UsuarioServiceTest.executor": "Run",
-    "JUnit.UsuarioServiceTest.testFindById.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "Database connection parameters found",
-    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.CarritoserviceApplication.executor": "Run",
-    "Spring Boot.PedidoserviceApplication.executor": "Run",
-    "Spring Boot.ProductserviceApplication.executor": "Run",
-    "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -99,93 +60,24 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="KtorApplicationConfigurationType" />
-        <option value="MicronautRunConfigurationType" />
-        <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.UsuarioServiceTest">
-    <configuration name="PedidoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pedidoservice" />
+  <component name="RunManager" selected="JUnit.CarritoControllerTest">
+    <configuration name="CarritoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carritoservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.perfulandia.pedidoservice.service.*" />
+          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.pedidoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.pedidoservice.service.PedidoServiceTest" />
+      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="productservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.productservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.productservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.controller.ProductoControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="productservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.productservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.productservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.service.ProductoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsuarioControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="usuarioservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.usuarioservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.usuarioservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.usuarioservice.controller.UsuarioControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsuarioServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="usuarioservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.usuarioservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.usuarioservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.usuarioservice.service.UsuarioServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="carritoservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfulandia.carritoservice.CarritoserviceApplication" />
       <method v="2">
@@ -218,11 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UsuarioServiceTest" />
-        <item itemvalue="JUnit.UsuarioControllerTest" />
-        <item itemvalue="JUnit.ProductoServiceTest" />
-        <item itemvalue="JUnit.ProductoControllerTest" />
-        <item itemvalue="JUnit.PedidoServiceTest" />
+        <item itemvalue="JUnit.CarritoControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,134 +124,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca3f7a9e-14f3-47a5-b756-30fa24fb4cd8" name="Changes" comment="" />
-      <created>1748067388378</created>
+      <changelist id="497b3443-7f46-4216-b27c-b61b2a413a8c" name="Changes" comment="" />
+      <created>1751349783353</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748067388378</updated>
-      <workItem from="1748067390225" duration="3326000" />
-      <workItem from="1748108402394" duration="11207000" />
-      <workItem from="1751152993305" duration="4946000" />
-      <workItem from="1751158579495" duration="1172000" />
-      <workItem from="1751159792653" duration="10587000" />
-      <workItem from="1751178825339" duration="43000" />
-      <workItem from="1751231273451" duration="4000" />
-      <workItem from="1751231447598" duration="5448000" />
-      <workItem from="1751237506190" duration="327000" />
+      <updated>1751349783353</updated>
+      <workItem from="1751349785890" duration="411000" />
     </task>
-    <task id="LOCAL-00001" summary="Model Pedido creado">
-      <option name="closed" value="true" />
-      <created>1748068416460</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1748068416461</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Repository Pedido agregado">
-      <option name="closed" value="true" />
-      <created>1748068636310</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1748068636310</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Service Pedido agregado">
-      <option name="closed" value="true" />
-      <created>1748108786589</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1748108786590</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Controller Pedido agregado">
-      <option name="closed" value="true" />
-      <created>1748109452104</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1748109452104</updated>
-    </task>
-    <task id="LOCAL-00005" summary="DTO creados">
-      <option name="closed" value="true" />
-      <created>1748119930711</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1748119930711</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Inicio ev3">
-      <option name="closed" value="true" />
-      <created>1751152883539</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1751152883539</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Test de usuario y producto completo">
-      <option name="closed" value="true" />
-      <created>1751231494513</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1751231494513</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Test Carrito">
-      <option name="closed" value="true" />
-      <created>1751233613564</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1751233613564</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Test Pedido">
-      <option name="closed" value="true" />
-      <created>1751235412439</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1751235412439</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Comentarios">
-      <option name="closed" value="true" />
-      <created>1751237398918</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1751237398918</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/carlos-moil" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="*" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -373,18 +146,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Model Pedido creado" />
-    <MESSAGE value="Repository Pedido agregado" />
-    <MESSAGE value="Service Pedido agregado" />
-    <MESSAGE value="Controller Pedido agregado" />
-    <MESSAGE value="DTO creados" />
-    <MESSAGE value="Inicio ev3" />
-    <MESSAGE value="Test de usuario y producto completo" />
-    <MESSAGE value="Test Carrito" />
-    <MESSAGE value="Test Pedido" />
-    <MESSAGE value="Comentarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comentarios" />
   </component>
 </project>

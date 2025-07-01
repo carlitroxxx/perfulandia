@@ -3,9 +3,7 @@ package com.perfulandia.carritoservice.controller;
 import com.perfulandia.carritoservice.model.Carrito;
 import com.perfulandia.carritoservice.model.ProductoCompraDTO;
 import com.perfulandia.carritoservice.service.CarritoService;
-import org.springframework.beans.factory.annotation.*;
 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import com.perfulandia.carritoservice.assembler.CarritoAssembler;
 import io.swagger.v3.oas.annotations.Operation;
@@ -13,11 +11,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 import org.springframework.hateoas.*;
-import org.springframework.web.bind.annotation.*;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/carrito")
@@ -36,8 +30,6 @@ public class CarritoController {
 
     @Operation(summary = "Crear un nuevo carrito")
     @PostMapping
-    public Carrito crearCarrito(@RequestBody Carrito carrito) {
-        return carritoService.crearCarrito(carrito.getIdCliente(), carrito.getDireccion());
     public EntityModel<Carrito> crearCarrito(@RequestBody Carrito carrito) {
         Carrito nuevoCarrito = carritoService.crearCarrito(carrito.getIdCliente(), carrito.getDireccion());
         return carritoAssembler.toModel(nuevoCarrito);
@@ -45,15 +37,16 @@ public class CarritoController {
     //agregar producto al carrito
     @Operation(summary = "Agregar producto al carrito")
     @PostMapping("/{idCarrito}/productos")
-    public Carrito agregarProducto(
+    public EntityModel<Carrito> agregarProducto(
             @PathVariable("idCarrito") long idCarrito,
             @RequestBody ProductoCompraDTO productoCompraDTO) {
             Carrito carrito = carritoService.agregarProducto(idCarrito, productoCompraDTO);
             return carritoAssembler.toModel(carrito);
+    }
 
     @Operation(summary = "Quitar producto del carrito")
     @DeleteMapping("/{idCarrito}/productos/{idProducto}")
-    public Carrito quitarProducto(
+    public EntityModel<Carrito> quitarProducto(
             @PathVariable("idCarrito") long idCarrito,
             @PathVariable("idProducto") long idProducto) {
                 Carrito carrito = carritoService.quitarProducto(idCarrito, idProducto);
@@ -62,7 +55,7 @@ public class CarritoController {
 
     @Operation(summary = "Obtener carrito por ID")
     @GetMapping("/{idCarrito}")
-    public Carrito obtenerCarrito(@PathVariable("idCarrito") long idCarrito) {
+    public EntityModel<Carrito> obtenerCarrito(@PathVariable("idCarrito") long idCarrito) {
         Carrito carrito = carritoService.obtenerCarrito(idCarrito);
         return carritoAssembler.toModel(carrito);
     }
