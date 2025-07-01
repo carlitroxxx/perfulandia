@@ -16,10 +16,10 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     //Datos Pedido
     private long id;
-
     private LocalDate fechaPedido;
     @Enumerated(EnumType.STRING)
     private EstadoPedido estado;
+
     //Cliente asociado
     private long idCliente;
     private String direccion;
