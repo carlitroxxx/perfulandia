@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="497b3443-7f46-4216-b27c-b61b2a413a8c" name="Changes" comment="Merge">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/controller/CarritoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/test/java/com/perfulandia/carritoservice/service/CarritoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/controller/PedidoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/controller/PedidoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/service/PedidoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/test/java/com/perfulandia/pedidoservice/service/PedidoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/service/ProductoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/service/ProductoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +23,26 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "carlitroxxx"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;carlitroxxx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/carlitroxxx/perfulandia.git",
-    "accountId": "2ae0765a-5d76-4924-968c-700ded49a578"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/carlitroxxx/perfulandia.git&quot;,
+    &quot;accountId&quot;: &quot;669f94da-5618-4d8d-a0e7-b030f6d28e17&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2zGG1ZMjRunb63PNdzzstPuF2J1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,18 +61,35 @@
     "JUnit.UsuarioControllerTest.executor": "Run",
     "JUnit.UsuarioServiceTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CarritoserviceApplication.executor": "Run",
+    "Spring Boot.PedidoserviceApplication.executor": "Run",
+    "Spring Boot.ProductserviceApplication.executor": "Run",
+    "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Mayckol/Desktop/MasterFS/perfulandia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.PedidoControllerTest">
     <configuration name="CarritoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carritoservice" />
@@ -186,9 +201,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PedidoControllerTest" />
-        <item itemvalue="JUnit.PedidoServiceTest" />
-        <item itemvalue="JUnit.CarritoControllerTest" />
         <item itemvalue="JUnit.CarritoServiceTest" />
+        <item itemvalue="JUnit.CarritoControllerTest" />
+        <item itemvalue="JUnit.PedidoServiceTest" />
         <item itemvalue="JUnit.ProductoControllerTest" />
       </list>
     </recent_temporary>
@@ -209,6 +224,8 @@
       <option name="presentableId" value="Default" />
       <updated>1751349783353</updated>
       <workItem from="1751349785890" duration="5094000" />
+      <workItem from="1751379627332" duration="1088000" />
+      <workItem from="1751380726392" duration="3258000" />
     </task>
     <task id="LOCAL-00001" summary="Merge">
       <option name="closed" value="true" />

@@ -3,17 +3,17 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for usuarioservice" enabled="true">
+      <profile name="Annotation profile for pedidoservice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
-        <module name="usuarioservice" />
         <module name="carritoservice" />
-        <module name="productservice" />
+        <module name="usuarioservice" />
         <module name="pedidoservice" />
+        <module name="productservice" />
       </profile>
     </annotationProcessing>
   </component>
