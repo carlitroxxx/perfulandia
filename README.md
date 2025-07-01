@@ -21,8 +21,7 @@ El sistema está estructurado en microservicios independientes, cada uno respons
 
 - Java 17
 - Spring Boot
-- MySQL (usando Laragon localmente)
-- Docker (propuesto para contenedores)
+- MariaDB (usando Laragon localmente)
 - Kubernetes (propuesto para orquestación)
 - Postman
 - GitHub
