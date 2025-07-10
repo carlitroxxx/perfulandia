@@ -4,11 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="497b3443-7f46-4216-b27c-b61b2a413a8c" name="Changes" comment="Merge">
+    <list default="true" id="f2336803-8a6b-46e8-bf56-1400fc844f2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/perfumeproyecto.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carritoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/.idea/productservice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/DataLoaderProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/ProductserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/assembler/ProductoAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/repository/ProductoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/service/ProductoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/ProductserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/service/ProductoServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/usuarioservice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/DataLoaderUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/UsuarioserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/assembler/UsuarioAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/repository/UsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,55 +69,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;carlitroxxx&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "carlitroxxx"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/carlitroxxx/perfulandia.git&quot;,
-    &quot;accountId&quot;: &quot;669f94da-5618-4d8d-a0e7-b030f6d28e17&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/carlitroxxx/perfulandia.git",
+    "accountId": "2ae0765a-5d76-4924-968c-700ded49a578"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2zGG1ZMjRunb63PNdzzstPuF2J1" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2zheByYCndffA7nltnQ06eoM094" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "JUnit.CarritoControllerTest.executor": "Run",
-    "JUnit.CarritoServiceTest.executor": "Run",
-    "JUnit.PedidoControllerTest.executor": "Run",
-    "JUnit.PedidoServiceTest.executor": "Run",
-    "JUnit.ProductoControllerTest.executor": "Run",
-    "JUnit.ProductoServiceTest and 1 more.executor": "Run",
-    "JUnit.ProductoServiceTest.executor": "Run",
-    "JUnit.UsuarioControllerTest.executor": "Run",
-    "JUnit.UsuarioServiceTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.CarritoserviceApplication.executor": "Run",
@@ -72,100 +105,23 @@
     "Spring Boot.ProductserviceApplication.executor": "Run",
     "Spring Boot.UsuarioserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Mayckol/Desktop/MasterFS/perfulandia",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "last_opened_file_path": "C:/Users/carlo/OneDrive - Universidad Técnica Federico Santa María/Escritorio/fullstack repo",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PedidoControllerTest">
-    <configuration name="CarritoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.controller.CarritoControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarritoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carritoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.carritoservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.carritoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.carritoservice.service.CarritoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PedidoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pedidoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.pedidoservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.pedidoservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.pedidoservice.controller.PedidoControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PedidoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pedidoservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.pedidoservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.pedidoservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.pedidoservice.service.PedidoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="productservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfulandia.productservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfulandia.productservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.perfulandia.productservice.controller.ProductoControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.PedidoserviceApplication">
     <configuration name="CarritoserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="carritoservice" />
@@ -198,15 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.PedidoControllerTest" />
-        <item itemvalue="JUnit.CarritoServiceTest" />
-        <item itemvalue="JUnit.CarritoControllerTest" />
-        <item itemvalue="JUnit.PedidoServiceTest" />
-        <item itemvalue="JUnit.ProductoControllerTest" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Spring Boot.UsuarioserviceApplication" />
+      <item itemvalue="Spring Boot.ProductserviceApplication" />
+      <item itemvalue="Spring Boot.PedidoserviceApplication" />
+      <item itemvalue="Spring Boot.CarritoserviceApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -218,24 +171,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="497b3443-7f46-4216-b27c-b61b2a413a8c" name="Changes" comment="" />
-      <created>1751349783353</created>
+      <changelist id="f2336803-8a6b-46e8-bf56-1400fc844f2a" name="Changes" comment="" />
+      <created>1752187601712</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751349783353</updated>
-      <workItem from="1751349785890" duration="5094000" />
-      <workItem from="1751379627332" duration="1088000" />
-      <workItem from="1751380726392" duration="3258000" />
+      <updated>1752187601712</updated>
+      <workItem from="1752187602538" duration="93000" />
     </task>
-    <task id="LOCAL-00001" summary="Merge">
-      <option name="closed" value="true" />
-      <created>1751350297327</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1751350297327</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,9 +193,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge" />
   </component>
 </project>
