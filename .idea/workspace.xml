@@ -4,113 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2336803-8a6b-46e8-bf56-1400fc844f2a" name="Changes" comment="">
+    <list default="true" id="f2336803-8a6b-46e8-bf56-1400fc844f2a" name="Changes" comment="reset">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/perfumeproyecto.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/.idea/productservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/DataLoaderProducto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/ProductserviceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/assembler/ProductoAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Producto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/model/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/repository/ProductoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/java/com/perfulandia/productservice/service/ProductoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/ProductserviceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/controller/ProductoControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productservice/productservice/src/test/java/com/perfulandia/productservice/service/ProductoServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/.idea/usuarioservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/DataLoaderUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/UsuarioserviceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/assembler/UsuarioAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/controller/UsuarioController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/model/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/repository/UsuarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/java/com/perfulandia/usuarioservice/service/UsuarioService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/UsuarioserviceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/controller/UsuarioControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarioservice/usuarioservice/src/test/java/com/perfulandia/usuarioservice/service/UsuarioServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarioservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "carlitroxxx"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;carlitroxxx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/carlitroxxx/perfulandia.git",
-    "accountId": "2ae0765a-5d76-4924-968c-700ded49a578"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/carlitroxxx/perfulandia.git&quot;,
+    &quot;accountId&quot;: &quot;2ae0765a-5d76-4924-968c-700ded49a578&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2zheByYCndffA7nltnQ06eoM094" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.CarritoserviceApplication.executor": "Run",
-    "Spring Boot.PedidoserviceApplication.executor": "Run",
-    "Spring Boot.ProductserviceApplication.executor": "Run",
-    "Spring Boot.UsuarioserviceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/carlo/OneDrive - Universidad Técnica Federico Santa María/Escritorio/fullstack repo",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;Database connection parameters found&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CarritoserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PedidoserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UsuarioserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/carlo/OneDrive - Universidad Técnica Federico Santa María/Escritorio/fullstack repo/carritoservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carlo\OneDrive - Universidad Técnica Federico Santa María\Escritorio\fullstack repo\carritoservice" />
+      <recent name="C:\Users\carlo\OneDrive - Universidad Técnica Federico Santa María\Escritorio\fullstack repo\pedidoservice" />
+      <recent name="C:\Users\carlo\OneDrive - Universidad Técnica Federico Santa María\Escritorio\fullstack repo\productservice" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -176,8 +156,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752187601712</updated>
-      <workItem from="1752187602538" duration="93000" />
+      <workItem from="1752187602538" duration="2740000" />
+      <workItem from="1752195436679" duration="458000" />
+      <workItem from="1752198532385" duration="87000" />
     </task>
+    <task id="LOCAL-00001" summary="reset">
+      <option name="closed" value="true" />
+      <created>1752187878978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752187878978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,5 +184,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset" />
   </component>
 </project>
