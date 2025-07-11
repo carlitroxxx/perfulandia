@@ -80,7 +80,7 @@ public class ProductoController {
     @Operation(summary = "Obtener usuario relacionado")
     @GetMapping("/usuario/{id}")
     public Usuario obtenerUsuario(@PathVariable long id){
-        return restTemplate.getForObject("http://localhost:8081/api/usuarios/"+id,Usuario.class);
+        return restTemplate.getForObject("https://perfulandia-usuario.onrender.com/api/usuarios/"+id,Usuario.class);
     }
 }
 //https://ms-products.onrender.com/api/productos/

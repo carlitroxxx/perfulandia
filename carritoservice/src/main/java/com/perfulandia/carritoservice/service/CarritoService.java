@@ -33,7 +33,7 @@ public class CarritoService {
         Carrito carrito=repo.findById(idCarrito).orElseThrow(() -> new RuntimeException("Carrito no encontrado"));
 
         //Obtener datos de producto
-        ProductoDTO productoBD = restTemplate.getForObject("http://localhost:8082/api/productos/{id}",ProductoDTO.class, productoDTO.getIdProducto());
+        ProductoDTO productoBD = restTemplate.getForObject("https://perfulandia-product.onrender.com//api/productos/{id}",ProductoDTO.class, productoDTO.getIdProducto());
         if (productoBD == null){throw new RuntimeException("No se encontro el producto");}
 
         ProductoCompra producto = new ProductoCompra();
