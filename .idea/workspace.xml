@@ -7,7 +7,9 @@
     <list default="true" id="f2336803-8a6b-46e8-bf56-1400fc844f2a" name="Changes" comment="config despliegue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/carritoservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/java/com/perfulandia/pedidoservice/service/PedidoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pedidoservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pedidoservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/src/main/java/com/perfulandia/productservice/controller/ProductoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productservice/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuarioservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarioservice/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -160,7 +162,7 @@
       <workItem from="1752198723068" duration="409000" />
       <workItem from="1752199199955" duration="752000" />
       <workItem from="1752200551611" duration="10775000" />
-      <workItem from="1752216567249" duration="293000" />
+      <workItem from="1752216567249" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="reset">
       <option name="closed" value="true" />
@@ -250,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752211688505</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="config despliegue">
+      <option name="closed" value="true" />
+      <created>1752216869368</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752216869368</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

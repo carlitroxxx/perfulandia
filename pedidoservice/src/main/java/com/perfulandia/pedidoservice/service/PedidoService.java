@@ -31,7 +31,7 @@ public class PedidoService {
 
     // Metodo para crear Pedido con datos desde Microservicio Carrito usando id carrito
     public Pedido recibirOrden(long idCarrito){
-        OrdenCompraDTO orden = restTemplate.getForObject("https://perfulandia-carrito.onrender.com/api/carrito/"+idCarrito, OrdenCompraDTO.class);
+        OrdenCompraDTO orden = restTemplate.getForObject("https://perfulandia-carritos.onrender.com/api/carrito/"+idCarrito, OrdenCompraDTO.class);
         //excepcion cuando no encuentra carrito...
         if (orden == null){throw new RuntimeException("No se encontró el carrito ID:"+idCarrito);}
         //crear un pedido
